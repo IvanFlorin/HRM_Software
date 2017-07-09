@@ -1,0 +1,79 @@
+#login {
+    padding-top: 50px
+}
+#login .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+#login h1 {
+    color: fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #4d0000;
+    font-size: 12px;
+    margin: 2px 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 1px;
+    border: 1px solid #4d0000;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: blue;
+    font-size: 13px;
+    font-weight: normal;
+}
+#login .btn.btn-danger {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#login .forget {
+    font-size: 14px;
+	text-align: center;
+	color:#330000;
+	display: block;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+.form-control {
+    color: #212121;
+    
+}
+.btn-danger {
+    color: #fff;
+	background-color: #3D5976;
+	border:none;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+    color: #fff;
+    background-color:#3D5976;
+    
+}
+

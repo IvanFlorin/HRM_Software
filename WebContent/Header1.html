@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+<link href="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js">
+<link href="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js">
+  <meta charset="utf-8">	<!-- <meta charset="ISO-8859-1"> -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Header</title>
+  <style>
+.dropbtn {
+    background-color:#577ea8;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: 	 white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #e0ebeb}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    
+}
+</style>
+</head>
+<body>
+
+
+ 
+  
+ <div class="container-fluid" style="background-color: #3D5976;height: 70px;">
+   
+    <center><a href="MainPage1.jsp" ><h1  style="font-family:sans serif;font-size:45px;color: white;align:center">HRM SOFTWARE</h1></a></center> 
+      </div>
+    
+   
+    <div class="container-fluid">
+  <div style="background-color: #577ea8;height: 55px;">
+  <div class="row" style="background-color: #577ea8">
+    <div style="float:right" >
+     
+       <div class="dropdown">
+  <button class="dropbtn" > <a href="MainPage1.jsp" style="color: white">Home</a></button>
+  
+</div>
+      <div class="dropdown">
+  <button class="dropbtn">Employee Information</button>
+  <div class="dropdown-content">
+    <a href="search1.jsp">Display Information  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+    <a href="Registration.jsp">Add Employee</a>
+    <a href="deleteEmp.jsp">Remove Employee</a>
+    <a href="ContactDetails.jsp">Add Contact Information</a>
+    <a href="JobDetail.jsp">Add Job Information</a>
+    
+  </div>
+</div>
+        <div class="dropdown">
+  <button class="dropbtn">Salary</button>
+  <div class="dropdown-content">
+    <a href="Search.jsp">Display Salary</a>
+    <a href="salary.jsp">Add Salary</a>
+    <a href="search4.jsp">Annual Salary</a>
+    
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Leave</button>
+  <div class="dropdown-content">
+    <a href="hrLev.jsp">Leave Application</a>
+    <a href="pending.jsp">Pending Leave</a>
+    <a href="absent.jsp">Absent Employee</a>
+   
+    
+  </div>  
+  </div>     
+     <div class="dropdown">
+  <button class="dropbtn" > <a href="Policy.jsp" style="color:white">Policy</a></button>
+</div>  
+ <div class="dropdown">
+ <button class="dropbtn">Account&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+  <div class="dropdown-content">
+      <a href="changepwd1.jsp">Change Password</a>  
+    <a href="HomePage.jsp">Logout</a>
+  
+  </div>
+</div> 
+
+  </div>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
